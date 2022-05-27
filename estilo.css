@@ -1,0 +1,90 @@
+.centrar{
+    text-align: center;
+}
+img{
+    width: 1900px;
+    max-height: 800px;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  footer{
+      background-color: grey;
+  }
+  #formulario {
+    width: 40%;
+    float: right;
+}
+#formulario form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+#formulario input {
+    width: 100%;
+    border: solid 1px gainsboro;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 5px 0;
+}
+#formulario input[type="text"], #formulario input[type="password"]{
+    box-sizing: border-box;
+}
+input[value="Entrar"] {
+    background-color: rgb(73, 88, 230);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+#formulario input[value="Crear cuenta"] {
+    background-color: rgb(45, 218, 97);
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 60%;
+}
+.izq{
+    text-align: left;
+}
+#formulario2 {
+    width: 40%;
+    float: left;
+}
+#formulario2 form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+}
+#formulario2 input {
+    width: 100%;
+    border: solid 1px gainsboro;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 5px 0;
+}
+#formulario2 input[type="text"], #formulario input[type="password"]{
+    box-sizing: border-box;
+}
+input[value="Entrar"] {
+    background-color: rgb(73, 88, 230);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+#formulario2 input[value="Crear cuenta"] {
+    background-color: rgb(45, 218, 97);
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 60%;
+}
+.margen{
+    margin-top: 800px;
+    padding: 3%;
+    text-align: center;
+}
